@@ -1,0 +1,11 @@
+main: SaplingShout.ShoutMain
+name: Sapling
+version: 1.0
+api-version: 1.14
+author: TheLastShrek
+description: As of now, this plugin has the shout command and a cooldown for it is in progress
+commands:
+    shout:
+        usage: /shout [msg]
+        aliases: [s, sh]
+        description: Allows a user to send a text formatted message, with headers, on a 5min cooldown        
